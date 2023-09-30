@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url(./font/Gilroy-Bold.woff2);
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url(./font/Gilroy-Medium.woff2);
+}
+
+@font-face {
+  font-family: 'Gilroy-Semibold';
+  src: url(./font/Gilroy-Semibold.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  background:#ffffff;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+p,
+a,
+button {
+  color: #000000;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 39px 0;
+  margin-bottom: 89px;
+}
+
+.HomeRedColor {
+  color: #ff0000;
+}
+
+.navigation {
+
+}
+
+.navigation a {
+  font-size: 14px;
+}
+
+.main {
+  margin-bottom: 162px;
+}
+
+.mainContent{}
+
+
+.mainContent__leftSide h1{
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 17px;
+}
+
+.mainContent__leftSide p{
+  color: #888;
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 37px;
+}
+
+.mainCotent__leftSide-btnlist {}
+
+
+.mainCotent__leftSide-btnlist button{
+padding: 15px 35px;
+font-family: Gilroy-Bold;
+font-size: 15px;
+font-weight: 400;
+cursor: pointer;
+margin-bottom: 162px;
+}
+
+.btnRedColor {
+  border-radius: 50px;
+  background: #F25822;
+}
+
+.btnNoColor {
+  color: #AAA;
+  border-radius: 50px;
+  background: none;
+  border: none;
+}
+
+.footer {
+  margin-bottom: 96px;
+}
+
+.logos {}
