@@ -48,6 +48,8 @@ button {
 }
 
 .HomeRedColor {
+  font-family: Gilroy-SemiBold;
+  font-weight: 400;
   color: #ff0000;
 }
 
@@ -57,6 +59,8 @@ button {
 
 .navigation a {
   font-size: 14px;
+  font-family: Gilroy-Medium;
+  font-weight: 400;
 }
 
 .main {
