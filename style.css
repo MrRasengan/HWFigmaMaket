@@ -96,8 +96,10 @@ margin-bottom: 162px;
 }
 
 .btnRedColor {
-  border-radius: 50px;
+  color: #ffffff;
   background: #F25822;
+  border: none;
+  border-radius: 50px;
 }
 
 .btnNoColor {
