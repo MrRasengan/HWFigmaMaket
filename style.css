@@ -51,11 +51,20 @@ button {
 .HomeRedColor {
   font-family: Gilroy-SemiBold;
   color: #ff0000;
+
 }
 
 .navigation {
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+.menu {
+  width: 533px;
+  display: flex;
+  justify-content: space-between;
+}
+
 
 .navigation a {
   font-size: 14px;
@@ -66,7 +75,10 @@ button {
   margin-bottom: 162px;
 }
 
-.mainContent{}
+.mainContent{
+  display: flex;
+  justify-content: space-between;
+}
 
 
 .mainContent__leftSide h1{
@@ -84,7 +96,11 @@ button {
   margin-bottom: 37px;
 }
 
-.mainCotent__leftSide-btnlist {}
+.mainCotent__leftSide-btnlist {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
 
 
 .mainCotent__leftSide-btnlist button{
@@ -92,7 +108,6 @@ padding: 15px 35px;
 font-family: Gilroy-Bold;
 font-size: 15px;
 cursor: pointer;
-margin-bottom: 162px;
 }
 
 .btnRedColor {
@@ -113,4 +128,7 @@ margin-bottom: 162px;
   margin-bottom: 96px;
 }
 
-.logos {}
+.logos {
+  display: flex;
+  justify-content: space-between;
+}
