@@ -145,7 +145,6 @@ button {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 100px;
 }
 
 .boxShadow-card {
@@ -178,8 +177,9 @@ button {
   /* 16.5px */
 }
 
-.boxListBackgroun {
+.boxListBackground {
   background: #FAFAFA;
+  padding: 100px;
 }
 
 .boxList h1 {
@@ -199,6 +199,10 @@ button {
   line-height: 150%;
   /* 24px */
   margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  padding-left: 244px;
+  padding-right: 244px;
 }
 
 .box {
@@ -228,6 +232,8 @@ button {
   line-height: 150%;
   /* 22.5px */
   margin-bottom: 39px;
+  padding-left: 30px;
+padding-right: 30px;
 }
 
 .btnBoxList {
